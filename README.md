@@ -1,6 +1,8 @@
 <h1 align="center">
   <br>
-  3D-Portfolio
+	<a href="https://github.com/Chefty/3D-Portfolio/blob/master/Assets/Textures/3d_portfolio_screenshot.png?raw=true"><img src="https://github.com/Chefty/3D-Portfolio/blob/master/Assets/Textures/3d_portfolio_screenshot.png?raw=true" alt="Markdownify" ></a>
+  <br>
+  3D Portfolio
 </h1>
 
 <h4 align="center">
@@ -14,7 +16,8 @@ A 3D version of my portfolio made with <a href="https://unity.com" target="_blan
 
 <p align="center">
   <a href="#how-to-use">How To Use</a> •
-  <a href="#license">License</a>
+  <a href="#license">License</a> •
+  <a href="#credits">Credits</a>
 </p>
 
 <!---![screenshot](https://lien-vers-un-gif)--->
