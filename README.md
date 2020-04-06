@@ -50,6 +50,7 @@ This application uses the following open source packages:
 - [better-unity-webgl-template](https://github.com/greggman/better-unity-webgl-template)
 - [KinoGlitch](https://github.com/keijiro/KinoGlitch)
 - [HologramShader](https://github.com/andydbc/HologramShader) --- Until I can install URP and use ShaderGraph without unity breaking down.
+- OST from [Jean-Michelle Pichet](https://soundcloud.com/user-587306190-320377549/fallback) (who's actually me).
 
 <!---## Support MAYBE FOR LATER
 <a href="patreon-link">
