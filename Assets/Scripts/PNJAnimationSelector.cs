@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum PnjAnimationEnum // your custom enumeration
+public enum PnjAnimationEnum
 {
     BreakDance,
     TwistDance,

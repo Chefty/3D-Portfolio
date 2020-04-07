@@ -19,19 +19,20 @@ public class TopDownCamera : MonoBehaviour
     private float smoothSpeed = .25f;
     [SerializeField]
     private float centerOffset = 0f;
+    /*First person view too many glitches for now*/
     //[SerializeField]
     //private Camera secondaryCamera;
 
     private Camera mainCamera;
     private Vector3 refVelocity;
     private Vector3 centerOffsetPosition;
-    private bool isDefaultPOV;
+    //private bool isDefaultPOV;
 
     // Start is called before the first frame update
     void Start()
     {
         mainCamera = Camera.main;
-        isDefaultPOV = true;
+        //isDefaultPOV = true;
         Cursor.lockState = CursorLockMode.Locked;
         CameraFollow(target);
     }

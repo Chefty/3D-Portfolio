@@ -13,15 +13,12 @@ public class Flickering : MonoBehaviour
 
     private float defaultLightIntensity;
 
-    private 
-    // Start is called before the first frame update
     void Start()
     {
         if (spotLight != null)
             defaultLightIntensity = spotLight.intensity;
     }
 
-    // Update is called once per frame
     void Update()
     {
         var flicker = Random.Range(flickeringLevel, 1f);

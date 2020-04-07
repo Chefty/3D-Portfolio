@@ -42,6 +42,9 @@ To clone and run this application, you will need:
 Clone this repository on your computer with. Then open the folder with Unity.
 You can start the application straight away by clicking on play or by building an application.
 
+If the scene doesn't display most of the meshes it's because I implemented use of MaterialPropertyBlock. Therefore I could group my materials into a default one and easily merge my meshes to reduce batches/drawcalls.
+Everything should be displayed properly on playmode, or you can edit HologramMaterialPropertyBlocks.cs and uncomment "[ExecuteInEditMode]".
+
 ## Credits
 This application uses the following open source packages:
 - [Arcade car physics](https://assetstore.unity.com/packages/tools/physics/arcade-car-physics-119484)

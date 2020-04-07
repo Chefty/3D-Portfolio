@@ -3,37 +3,47 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+//ENABLE THIS TO DISPLAY GROUPED MATERIALS OBJECTS IN EDITOR -- DEBUG PURPOSE
 //[ExecuteInEditMode]
 public class HologramMaterialPropertyBlocks : MonoBehaviour
 {
+    #region public_variables
     [Header("General")]
     public float brightness;
     public float alpha;
     public Vector3 direction;
-
     public Texture2D mainTexture;
     public Color mainColor;
 
+    [Header("Rim Light")]
     public Color rimColor;
     public float rimPower;
 
+    [Header("Scanlines")]
     public bool enableScanlines;
     public float scanSpeed;
     public float scanTiling;
 
+    [Header("Glow")]
     public bool enableGlow;
     public float glowSpeed;
     public float glowTiling;
 
+    [Header("Glitch")]
     public bool enableGlitch;
     public float glitchSpeed;
     public float glitchIntensity;
 
+    [Header("Flicker")]
     public float flickerSpeed;
+    #endregion
 
+    #region private_variables
     private Renderer _renderer;
     private MaterialPropertyBlock _propBlock;
-    
+    #endregion
+
+    #region default_methods
     void Awake()
     {
         _propBlock = new MaterialPropertyBlock();
@@ -87,4 +97,5 @@ public class HologramMaterialPropertyBlocks : MonoBehaviour
         // Apply the edited values to the renderer.
         _renderer.SetPropertyBlock(_propBlock);
     }
+    #endregion
 }
